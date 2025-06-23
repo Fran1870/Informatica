@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Sistemas operativos</title>
+        <link rel="stylesheet" href="Principal.css">
+    </head>
+<body>
+    <header>
+        <div id = Div1><h1>Sistemas operativos</h1></div>
+        <div id="Div2">
+            <ul>
+                <a href="Pantalla-menu.html">Ver todos los temas</a>
+            </ul>
+        </div>
+    </header>
+    <div id = Cab> 
+        <div id = Cab1>
+            <h2>Informacion general:</h2>
+            <ul>
+                <li>Investigado por: Ivan Galvan Diaz</li>
+                <li>Editado por: Francisco Javier Yepez Carrasco</li>
+                <li>Fecha de creacion: 2-12-24</li>
+                <li>Fecha de edicion: 2-12-24</li>
+                <li>Numero de tema: 8</li>
+            </ul>
+        </div>
+        <div id = Cab2>
+            <img src="Sist-Op1.jpeg" id = Img1>
+        </div>
+    </div>
+    <nav>
+        <h2>Sistemas Operativos</h2>
+        <h3>Un sistema operativo (SO)</h3>
+        <p>Es el software principal que gestiona el hardware y software de una computadora. Sirve como intermediario entre el usuario y los recursos de hardware, permitiendo que las aplicaciones funcionen correctamente. A continuación, se detalla todo lo fundamental sobre los sistemas operativos:</p>
+        
+        <h3>1. Definición y Funciones</h3>
+        <p>Un sistema operativo es un conjunto de programas que:</p>
+        <ul>
+            <li>Administra los recursos del hardware: Procesador, memoria, almacenamiento, dispositivos de entrada/salida.</li>
+            <li>Proporciona servicios básicos: Manejo de archivos, gestión de usuarios y permisos.</li>
+            <li>Permite la ejecución de aplicaciones: Sirve como plataforma para programas y aplicaciones.</li>
+        </ul>
+        <h4>Funciones principales:</h4>
+        <ul>
+            <li><strong>Gestión de procesos:</strong>
+                <ul>
+                    <li>Creación, ejecución y finalización de procesos.</li>
+                    <li>Planificación y asignación de CPU.</li>
+                    <li>Manejo de multitarea y multihilos.</li>
+                </ul>
+            </li>
+            <li><strong>Gestión de memoria:</strong>
+                <ul>
+                    <li>Asignación y liberación de memoria.</li>
+                    <li>Uso de memoria virtual.</li>
+                    <li>Protección y organización del espacio de direcciones.</li>
+                </ul>
+            </li>
+            <img src="Sis-Op2.png" class = Img-2>
+            <li><strong>Gestión de dispositivos:</strong>
+                <ul>
+                    <li>Control de hardware (impresoras, discos, teclados, etc.).</li>
+                    <li>Comunicación con controladores de dispositivos.</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <h3>2. Componentes de un Sistema Operativo</h3>
+        <p>Los sistemas operativos se componen de varias partes esenciales:</p>
+        <ul>
+            <li><strong>Núcleo (Kernel):</strong>
+                <p>Es el corazón del sistema operativo. Administra los recursos del sistema y permite la comunicación entre hardware y software.</p>
+                <ul>
+                    <li>Monolítico: Todo el núcleo funciona como un único programa (ejemplo: Linux).</li>
+                    <li>Microkernel: Dividido en módulos más pequeños y simplificados (ejemplo: Minix).</li>
+                </ul>
+            </li>
+            <li><strong>Gestor de procesos:</strong> Coordina la creación, eliminación y sincronización de procesos.</li>
+            <li><strong>Gestor de memoria:</strong> Controla el acceso a la memoria principal y asigna espacios según las necesidades de los procesos.</li>
+            <li><strong>Sistema de entrada/salida:</strong> Proporciona métodos para que los programas se comuniquen con dispositivos de hardware.</li>
+            <li><strong>Sistema de archivos:</strong> Administra cómo se almacenan y recuperan los datos.</li>
+        </ul>
+        
+        <h3>3. Clasificación de Sistemas Operativos</h3>
+        <p>Se pueden clasificar según diferentes criterios:</p>
+        <h4>Por su funcionalidad:</h4>
+        <ul>
+            <li>Monotarea: Solo ejecuta un proceso a la vez (ejemplo: MS-DOS).</li>
+            <li>Multitarea: Permite ejecutar varios procesos simultáneamente (ejemplo: Windows, Linux).</li>
+        </ul>
+        <h4>Por el número de usuarios:</h4>
+        <ul>
+            <li>Monousuario: Un solo usuario puede interactuar con el sistema a la vez.</li>
+            <li>Multiusuario: Permite que múltiples usuarios trabajen al mismo tiempo.</li>
+        </ul>
+        <h4>Por la arquitectura:</h4>
+        <ul>
+            <li>SO de escritorio: Diseñados para PCs personales (ejemplo: Windows, macOS).</li>
+            <li>SO de servidores: Optimizados para servidores y gestión de redes (ejemplo: Windows Server, Unix).</li>
+            <li>SO en tiempo real (RTOS): Procesan tareas con tiempos de respuesta garantizados (ejemplo: sistemas de control industrial).</li>
+        </ul>
+        <img src="Sis-Op4.jpeg" class = Img-3>
+        <h3>4. Seguridad en Sistemas Operativos</h3>
+        <h4>Características esenciales:</h4>
+        <ul>
+            <li>Gestión de permisos y usuarios: Control de acceso mediante autenticación y permisos de archivos.</li>
+            <li>Encriptación: Proteger datos sensibles mediante cifrado.</li>
+            <li>Aislamiento de procesos: Evitar interferencias entre procesos en ejecución.</li>
+            <li>Parcheo y actualizaciones: Corregir vulnerabilidades mediante actualizaciones regulares.</li>
+        </ul>
+        <h4>Amenazas comunes:</h4>
+        <ul>
+            <li>Malware: Virus, gusanos, ransomware, etc.</li>
+            <li>Ataques de red: Suplantación de identidad, denegación de servicio (DoS), etc.</li>
+            <li>Errores de configuración: Permisos incorrectos o configuraciones inseguras.</li>
+        </ul>
+        
+        <h3>5. Sistemas Operativos y la Virtualización</h3>
+        <p>La virtualización permite ejecutar múltiples sistemas operativos en un solo hardware físico, gracias a tecnologías como:</p>
+        <ul>
+            <li>Máquinas virtuales (VMs): Software como VMware, VirtualBox o Hyper-V.</li>
+            <li>Contenedores: Sistemas como Docker y Kubernetes que ofrecen entornos ligeros para aplicaciones.</li>
+        </ul>
+        <p>Ventajas:</p>
+        <ul>
+            <li>Optimización de recursos.</li>
+            <li>Reducción de costos operativos.</li>
+            <li>Mayor flexibilidad en el desarrollo y pruebas de software.</li>
+        </ul>        
+        <video controls loop>
+            <source src="Sis-OpVid.mp4" type="video/mp4">
+        </video>
+        <img src="Sis-Op6.jpeg" class="Img-3">
+        <p><br><br><br><br>Esperamos que el contenido y el material de apoyo ayan sido de tu ayuda.</p>
+    </nav>
+</body>

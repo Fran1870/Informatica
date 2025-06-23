@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Desarrollo web</title>
+        <link rel="stylesheet" href="Principal.css">
+    </head>
+<body>
+    <header>
+        <div id = Div1><h1>Desarrollo web</h1></div>
+        <div id="Div2">
+            <ul>
+                <a href="Pantalla-menu.html">Ver todos los temas</a>
+            </ul>
+        </div>
+    </header>
+    <div id = Cab> 
+        <div id = Cab1>
+            <h2>Informacion general:</h2>
+            <ul>
+                <li>Investigado por: Francisco Javier Yepez Carrasco</li>
+                <li>Editado por: Francisco Javier Yepez Carrasco</li>
+                <li>Fecha de creacion: 16-12-24</li>
+                <li>Fecha de edicion: 16-12-24</li>
+                <li>Numero de tema: 10</li>
+            </ul>
+        </div>
+        <div id = Cab2>
+            <img src="DesWeb1.jpeg" id = Img1>
+        </div>
+    </div>
+    <nav>
+        <h2>¿Qué es el desarrollo web?</h2>
+        <p>El <strong>desarrollo web</strong> es el proceso de crear y mantener sitios web y aplicaciones que se ejecutan en navegadores web. Incluye todas las tareas relacionadas con el diseño, la programación, la implementación y la optimización de experiencias digitales en línea.</p>
+        <p>Abarca desde la creación de sitios simples (como blogs o páginas informativas) hasta plataformas avanzadas y dinámicas (como tiendas en línea, redes sociales o servicios en la nube).</p>
+        
+        <h3>Principales componentes del desarrollo web</h3>
+        <h4>Frontend (Interfaz de usuario)</h4>
+        <p>Es la parte del sitio web que los usuarios ven e interactúan directamente. Incluye:</p>
+        <ul>
+            <li><strong>HTML:</strong> Define la estructura de la página (encabezados, párrafos, imágenes, enlaces, etc.).</li>
+            <li><strong>CSS:</strong> Controla el diseño visual (colores, fuentes, tamaños, disposición, etc.).</li>
+            <li><strong>JavaScript:</strong> Añade interactividad (formularios dinámicos, menús desplegables, animaciones, etc.).</li>
+        </ul>
+        <p><strong>Ejemplo:</strong> Un botón que cambia de color al hacer clic es una funcionalidad del frontend.</p>
+        
+        <h4>Backend (Lógica del servidor)</h4>
+        <p>Es la parte oculta del desarrollo web que maneja la lógica de negocios, el procesamiento de datos y la interacción con bases de datos. Se ejecuta en un servidor y puede incluir:</p>
+        <ul>
+            <li>Lenguajes de programación como Python, PHP, Java, Node.js, etc.</li>
+            <li>Bases de datos como MySQL, PostgreSQL, MongoDB, etc.</li>
+            <li>Gestión de servidores para alojar el sitio o aplicación.</li>
+        </ul>
+        <p><strong>Ejemplo:</strong> Cuando un usuario inicia sesión, el backend valida su nombre de usuario y contraseña.</p>
+        
+        <h4>Base de datos</h4>
+        <p>Es donde se almacenan y gestionan los datos del sitio web, como información de usuarios, productos, publicaciones, etc. Las bases de datos son esenciales para sitios web dinámicos.</p>
+        
+        <h4>Full Stack</h4>
+        <p>Un desarrollador <strong>Full Stack</strong> trabaja tanto en el frontend como en el backend, conectando ambos para que el sitio funcione de manera integral.</p>
+        
+        <h3>Tipos de desarrollo web</h3>
+        <ul>
+            <li><strong>Desarrollo web estático:</strong>
+                <ul>
+                    <li>Sitios web simples, sin interacción con bases de datos ni contenido dinámico.</li>
+                    <li>Generalmente hechos solo con HTML y CSS.</li>
+                    <li><strong>Ejemplo:</strong> Una página informativa básica.</li>
+                </ul>
+            </li>
+            <li><strong>Desarrollo web dinámico:</strong>
+                <ul>
+                    <li>Sitios interactivos que pueden cambiar su contenido según la interacción del usuario.</li>
+                    <li>Incluyen backend, bases de datos y lenguajes como PHP, Python o Ruby.</li>
+                    <li><strong>Ejemplo:</strong> Redes sociales como Facebook o Instagram.</li>
+                </ul>
+            </li>
+            <li><strong>Aplicaciones web:</strong>
+                <ul>
+                    <li>Programas avanzados que funcionan en navegadores, como editores de texto en línea o servicios de correo electrónico.</li>
+                    <li><strong>Ejemplo:</strong> Gmail o Google Docs.</li>
+                </ul>
+            </li>
+        </ul>
+        <img src="DesWeb2.jpeg" class="Img-2">
+        <h3>Herramientas y tecnologías del desarrollo web</h3>
+        <h4>Lenguajes principales:</h4>
+        <p><strong>Frontend:</strong></p>
+        <ul>
+            <li>HTML, CSS, JavaScript.</li>
+            <li>Frameworks populares: React, Angular, Vue.js.</li>
+        </ul>
+        <p><strong>Backend:</strong></p>
+        <ul>
+            <li>Node.js, Python (Django, Flask), Ruby on Rails, PHP (Laravel), Java (Spring).</li>
+        </ul>
+        <p><strong>Bases de datos:</strong></p>
+        <ul>
+            <li>Relacionales: MySQL, PostgreSQL.</li>
+            <li>No relacionales: MongoDB, Firebase.</li>
+        </ul>
+        <h4>Otras herramientas:</h4>
+        <ul>
+            <li>Control de versiones: Git, GitHub.</li>
+            <li>Entornos de desarrollo: Visual Studio Code, WebStorm.</li>
+            <li>Sistemas de gestión de contenido (CMS): WordPress, Joomla, Drupal.</li>
+            <li>Hosting y servidores: AWS, Heroku, Netlify, Vercel.</li>
+        </ul>
+        
+        <h3>Ejemplo simple de desarrollo web</h3>
+        <p><strong>Estructura básica de un sitio web con HTML, CSS y JavaScript:</strong></p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Mi primera página web&lt;/title&gt;
+            &lt;style&gt;
+                body {
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    background-color: #f4f4f4;
+                }
+                button {
+                    padding: 10px 20px;
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #45a049;
+                }
+            &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Bienvenido a mi sitio web&lt;/h1&gt;
+            &lt;p&gt;Haz clic en el botón para mostrar un mensaje.&lt;/p&gt;
+            &lt;button onclick="mostrarMensaje()"&gt;Haz clic aquí&lt;/button&gt;
+        
+            &lt;script&gt;
+                function mostrarMensaje() {
+                    alert("¡Hola! Gracias por visitar mi sitio web.");
+                }
+            &lt;/script&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+        <img src="DesWeb3.jpeg" class="Img-3">
+        <h3>Aplicaciones del desarrollo web</h3>
+        <ul>
+            <li><strong>E-commerce:</strong> Creación de tiendas en línea como Amazon o MercadoLibre.</li>
+            <li><strong>Redes sociales:</strong> Plataformas para conectar personas como Facebook o LinkedIn.</li>
+            <li><strong>Educación:</strong> Portales de aprendizaje como Khan Academy o Coursera.</li>
+            <li><strong>Entretenimiento:</strong> Servicios de streaming como Netflix o Spotify.</li>
+        </ul>
+        <p>El desarrollo web es una disciplina fundamental en el mundo digital, y con el aprendizaje de las tecnologías adecuadas, se pueden crear experiencias innovadoras para millones de usuarios en todo el mundo.</p><h2>¿Qué es el desarrollo web?</h2>
+        <p>El <strong>desarrollo web</strong> es el proceso de crear y mantener sitios web y aplicaciones que se ejecutan en navegadores web. Incluye todas las tareas relacionadas con el diseño, la programación, la implementación y la optimización de experiencias digitales en línea.</p>
+        <p>Abarca desde la creación de sitios simples (como blogs o páginas informativas) hasta plataformas avanzadas y dinámicas (como tiendas en línea, redes sociales o servicios en la nube).</p>
+        
+        <h3>Principales componentes del desarrollo web</h3>
+        <h4>Frontend (Interfaz de usuario)</h4>
+        <p>Es la parte del sitio web que los usuarios ven e interactúan directamente. Incluye:</p>
+        <ul>
+            <li><strong>HTML:</strong> Define la estructura de la página (encabezados, párrafos, imágenes, enlaces, etc.).</li>
+            <li><strong>CSS:</strong> Controla el diseño visual (colores, fuentes, tamaños, disposición, etc.).</li>
+            <li><strong>JavaScript:</strong> Añade interactividad (formularios dinámicos, menús desplegables, animaciones, etc.).</li>
+        </ul>
+        <p><strong>Ejemplo:</strong> Un botón que cambia de color al hacer clic es una funcionalidad del frontend.</p>
+        
+        <h4>Backend (Lógica del servidor)</h4>
+        <p>Es la parte oculta del desarrollo web que maneja la lógica de negocios, el procesamiento de datos y la interacción con bases de datos. Se ejecuta en un servidor y puede incluir:</p>
+        <ul>
+            <li>Lenguajes de programación como Python, PHP, Java, Node.js, etc.</li>
+            <li>Bases de datos como MySQL, PostgreSQL, MongoDB, etc.</li>
+            <li>Gestión de servidores para alojar el sitio o aplicación.</li>
+        </ul>
+        <p><strong>Ejemplo:</strong> Cuando un usuario inicia sesión, el backend valida su nombre de usuario y contraseña.</p>
+        
+        <h4>Base de datos</h4>
+        <p>Es donde se almacenan y gestionan los datos del sitio web, como información de usuarios, productos, publicaciones, etc. Las bases de datos son esenciales para sitios web dinámicos.</p>
+        
+        <h4>Full Stack</h4>
+        <p>Un desarrollador <strong>Full Stack</strong> trabaja tanto en el frontend como en el backend, conectando ambos para que el sitio funcione de manera integral.</p>
+        
+        <h3>Tipos de desarrollo web</h3>
+        <ul>
+            <li><strong>Desarrollo web estático:</strong>
+                <ul>
+                    <li>Sitios web simples, sin interacción con bases de datos ni contenido dinámico.</li>
+                    <li>Generalmente hechos solo con HTML y CSS.</li>
+                    <li><strong>Ejemplo:</strong> Una página informativa básica.</li>
+                </ul>
+            </li>
+            <li><strong>Desarrollo web dinámico:</strong>
+                <ul>
+                    <li>Sitios interactivos que pueden cambiar su contenido según la interacción del usuario.</li>
+                    <li>Incluyen backend, bases de datos y lenguajes como PHP, Python o Ruby.</li>
+                    <li><strong>Ejemplo:</strong> Redes sociales como Facebook o Instagram.</li>
+                </ul>
+            </li>
+            <li><strong>Aplicaciones web:</strong>
+                <ul>
+                    <li>Programas avanzados que funcionan en navegadores, como editores de texto en línea o servicios de correo electrónico.</li>
+                    <li><strong>Ejemplo:</strong> Gmail o Google Docs.</li>
+                </ul>
+            </li>
+        </ul>
+        <img src="DesWeb4.jpeg" class="Img-2">
+        <h3>Herramientas y tecnologías del desarrollo web</h3>
+        <h4>Lenguajes principales:</h4>
+        <p><strong>Frontend:</strong></p>
+        <ul>
+            <li>HTML, CSS, JavaScript.</li>
+            <li>Frameworks populares: React, Angular, Vue.js.</li>
+        </ul>
+        <p><strong>Backend:</strong></p>
+        <ul>
+            <li>Node.js, Python (Django, Flask), Ruby on Rails, PHP (Laravel), Java (Spring).</li>
+        </ul>
+        <p><strong>Bases de datos:</strong></p>
+        <ul>
+            <li>Relacionales: MySQL, PostgreSQL.</li>
+            <li>No relacionales: MongoDB, Firebase.</li>
+        </ul>
+        <h4>Otras herramientas:</h4>
+        <ul>
+            <li>Control de versiones: Git, GitHub.</li>
+            <li>Entornos de desarrollo: Visual Studio Code, WebStorm.</li>
+            <li>Sistemas de gestión de contenido (CMS): WordPress, Joomla, Drupal.</li>
+            <li>Hosting y servidores: AWS, Heroku, Netlify, Vercel.</li>
+        </ul>
+        
+        <h3>Ejemplo simple de desarrollo web</h3>
+        <p><strong>Estructura básica de un sitio web con HTML, CSS y JavaScript:</strong></p>
+        <pre><code>&lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Mi primera página web&lt;/title&gt;
+            &lt;style&gt;
+                body {
+                    font-family: Arial, sans-serif;
+                    text-align: center;
+                    background-color: #f4f4f4;
+                }
+                button {
+                    padding: 10px 20px;
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    cursor: pointer;
+                }
+                button:hover {
+                    background-color: #45a049;
+                }
+            &lt;/style&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Bienvenido a mi sitio web&lt;/h1&gt;
+            &lt;p&gt;Haz clic en el botón para mostrar un mensaje.&lt;/p&gt;
+            &lt;button onclick="mostrarMensaje()"&gt;Haz clic aquí&lt;/button&gt;
+        
+            &lt;script&gt;
+                function mostrarMensaje() {
+                    alert("¡Hola! Gracias por visitar mi sitio web.");
+                }
+            &lt;/script&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;
+        </code></pre>
+        
+        <h3>Aplicaciones del desarrollo web</h3>
+        <ul>
+            <li><strong>E-commerce:</strong> Creación de tiendas en línea como Amazon o MercadoLibre.</li>
+            <li><strong>Redes sociales:</strong> Plataformas para conectar personas como Facebook o LinkedIn.</li>
+            <li><strong>Educación:</strong> Portales de aprendizaje como Khan Academy o Coursera.</li>
+            <li><strong>Entretenimiento:</strong> Servicios de streaming como Netflix o Spotify.</li>
+        </ul>
+        <p>El desarrollo web es una disciplina fundamental en el mundo digital, y con el aprendizaje de las tecnologías adecuadas, se pueden crear experiencias innovadoras para millones de usuarios en todo el mundo.</p>
+        <p><br><br><br><br>Esperamos que el contenido y el material de apoyo ayan sido de tu ayuda.</p>
+    </nav>
+</body>

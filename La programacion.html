@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>La programación</title>
+        <link rel="stylesheet" href="Principal.css">
+    </head>
+<body>
+    <header>
+        <div id = Div1><h1>La programación</h1></div>
+        <div id="Div2">
+            <ul>
+                <a href="Pantalla-menu.html">Ver todos los temas</a>
+            </ul>
+        </div>
+    </header>
+    <div id = Cab> 
+        <div id = Cab1>
+            <h2>Informacion general:</h2>
+            <ul>
+                <li>Investigado por: Francisco Javier Yepez Carrasco</li>
+                <li>Editado por: Francisco Javier Yepez Carrasco</li>
+                <li>Fecha de creacion: 3-12-24</li>
+                <li>Fecha de edicion: 3-12-24</li>
+                <li>Numero de tema: 2</li>
+            </ul>
+        </div>
+        <div id = Cab2>
+            <img src="Progra-img.jpeg" class = Img-1>
+        </div>
+    </div>
+    <nav><h2>¿Qué es la programación?</h2>
+        <p>La <strong>programación</strong> es el proceso de crear instrucciones que una computadora puede entender y ejecutar para realizar tareas específicas. Estas instrucciones se escriben en un lenguaje de programación, que es un conjunto de reglas y sintaxis diseñadas para comunicarse con las máquinas.</p>
+        <p>Es como enseñar a una computadora a realizar tareas paso a paso. Estas tareas pueden ser simples, como sumar dos números, o complejas, como manejar sistemas financieros, controlar robots o crear videojuegos.</p>
+        
+        <h3>Conceptos básicos de la programación</h3>
+        <ul>
+            <li><strong>Lenguaje de programación:</strong> Es el idioma que utilizamos para escribir programas. Algunos lenguajes populares incluyen Python, Java, C++ y JavaScript.</li>
+            <li><strong>Código:</strong> Las instrucciones escritas en un lenguaje de programación.</li>
+            <li><strong>Algoritmo:</strong> Es un conjunto de pasos ordenados para resolver un problema.</li>
+            <li><strong>Compilador/Intérprete:</strong> Son herramientas que convierten el código en un formato que la computadora pueda ejecutar.</li>
+        </ul>
+        
+        <h3>¿Cómo funciona la programación?</h3>
+        <ol>
+            <li><strong>Definición del problema:</strong> Primero se identifica qué tarea debe resolver la computadora.</li>
+            <li><strong>Diseño del algoritmo:</strong> Se crea un plan o conjunto de pasos para resolver el problema.</li>
+            <li><strong>Escritura del código:</strong> Se traducen los pasos del algoritmo a un lenguaje de programación.</li>
+            <li><strong>Depuración y prueba:</strong> Se corrigen errores y se prueba el programa para asegurarse de que funcione correctamente.</li>
+        </ol>
+        <img src="Prog2.jpeg" class="Img-2">
+        <h3>Ejemplo práctico: Sumar dos números</h3>
+        <p><strong>Problema:</strong> Queremos escribir un programa que sume dos números y muestre el resultado.</p>
+        <p><strong>Algoritmo:</strong></p>
+        <ol>
+            <li>Pedir al usuario que ingrese el primer número.</li>
+            <li>Pedir al usuario que ingrese el segundo número.</li>
+            <li>Sumar ambos números.</li>
+            <li>Mostrar el resultado.</li>
+        </ol>
+        <p><strong>Código en Python:</strong></p>
+        <pre>
+        <code>
+        # Paso 1 y 2: Pedir al usuario los números
+        numero1 = float(input("Ingresa el primer número: "))
+        numero2 = float(input("Ingresa el segundo número: "))
+        
+        # Paso 3: Sumar los números
+        resultado = numero1 + numero2
+        
+        # Paso 4: Mostrar el resultado
+        print("La suma de los números es:", resultado)
+        </code>
+        </pre>
+        <p><strong>Ejecución:</strong> Cuando este código se ejecuta:</p>
+        <ul>
+            <li>El usuario ingresa, por ejemplo, "5" y "3".</li>
+            <li>El programa calcula la suma (5 + 3 = 8).</li>
+            <li>Muestra el resultado: <em>La suma de los números es: 8</em>.</li>
+        </ul>
+        
+        <h3>Ejemplo más avanzado: Calculadora simple</h3>
+        <p><strong>Código en Python:</strong></p>
+        <pre>
+        <code>
+        def calculadora():
+            print("Selecciona una operación:")
+            print("1. Sumar")
+            print("2. Restar")
+            print("3. Multiplicar")
+            print("4. Dividir")
+        
+            opcion = int(input("Elige una opción (1/2/3/4): "))
+        
+            num1 = float(input("Ingresa el primer número: "))
+            num2 = float(input("Ingresa el segundo número: "))
+        
+            if opcion == 1:
+                print(f"El resultado de la suma es: {num1 + num2}")
+            elif opcion == 2:
+                print(f"El resultado de la resta es: {num1 - num2}")
+            elif opcion == 3:
+                print(f"El resultado de la multiplicación es: {num1 * num2}")
+            elif opcion == 4:
+                if num2 != 0:
+                    print(f"El resultado de la división es: {num1 / num2}")
+                else:
+                    print("Error: No se puede dividir entre cero.")
+            else:
+                print("Opción no válida.")
+        
+        calculadora()
+        </code>
+        </pre>
+        <img src="Prog3.jpeg" class="Img-2">
+        <h3>Aplicaciones de la programación</h3>
+        <ul>
+            <li><strong>Desarrollo web:</strong> Crear sitios web y aplicaciones web.</li>
+            <li><strong>Inteligencia artificial:</strong> Enseñar a las máquinas a aprender y tomar decisiones.</li>
+            <li><strong>Automatización:</strong> Realizar tareas repetitivas de forma automática.</li>
+            <li><strong>Videojuegos:</strong> Crear juegos interactivos.</li>
+            <li><strong>Control de hardware:</strong> Programar robots o dispositivos electrónicos.</li>
+        </ul>
+        <p>La programación no solo se trata de escribir código, sino de resolver problemas de manera 
+            lógica y eficiente, lo que la convierte en una habilidad fundamental en el mundo actual.</p> 
+        <p><br><br><br><br>Esperamos que el contenido y el material de apoyo ayan sido de tu ayuda.</p>       
+    </nav>
+</body>

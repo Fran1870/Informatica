@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bases de datos</title>
+        <link rel="stylesheet" href="Principal.css">
+    </head>
+<body>
+    <header>
+        <div id = Div1><h1>Bases de datos</h1></div>
+        <div id="Div2">
+            <ul>
+                <a href="Pantalla-menu.html">Ver todos los temas</a>
+            </ul>
+        </div>
+    </header>
+    <div id = Cab> 
+        <div id = Cab1>
+            <h2>Informacion general:</h2>
+            <ul>
+                <li>Investigado por: Ivan Galvan Diaz</li>
+                <li>Editado por: Francisco Javier Yepez Carrasco</li>
+                <li>Fecha de creacion: 4-12-24</li>
+                <li>Fecha de edicion: 4-12-24</li>
+                <li>Numero de tema: 4</li>
+            </ul>
+        </div>
+        <div id = Cab2>
+            <img src="DatBas1.png" id = Img1>
+        </div>
+    </div>
+    <nav>
+        <h2>¿Qué es una base de datos?</h2>
+        <p>Una <strong>base de datos</strong> es una colección organizada de datos que se almacena y gestiona para facilitar su acceso, manipulación y actualización. Las bases de datos son esenciales en casi todos los ámbitos donde se requiere manejar grandes volúmenes de información de manera eficiente, como negocios, educación, salud y tecnología.</p>
+        
+        <h3>1. Tipos de bases de datos</h3>
+        <h4>a.- Según su estructura:</h4>
+        <ul>
+            <li><strong>Relacionales (RDBMS):</strong> Organizan los datos en tablas con filas y columnas. Usan SQL para consultar y manipular datos. Ejemplo: MySQL, PostgreSQL, Oracle.</li>
+            <li><strong>No relacionales (NoSQL):</strong> Diseñadas para manejar datos no estructurados o semiestructurados. Ejemplo: MongoDB, Cassandra, Redis.</li>
+        </ul>
+        <img src="DatBase2.jpg" class="Img-2">
+        <h4>b.- Según el modelo de datos:</h4>
+        <ul>
+            <li>Jerárquicas.</li>
+            <li>De red.</li>
+            <li>Relacionales.</li>
+            <li>Orientadas a objetos.</li>
+            <li>Documentales.</li>
+            <li>Basadas en grafos.</li>
+        </ul>
+        <h4>c.- Según su ubicación:</h4>
+        <ul>
+            <li><strong>Locales:</strong> Instaladas en el dispositivo del usuario.</li>
+            <li><strong>En la nube:</strong> Gestionadas por servicios como AWS, Azure o Google Cloud.</li>
+        </ul>
+        
+        <h3>2. Componentes principales de una base de datos</h3>
+        <ul>
+            <li><strong>Tablas:</strong> Estructuras que almacenan datos en filas (registros) y columnas (campos).</li>
+            <li><strong>Filas o registros:</strong> Cada conjunto de valores que representan un elemento o entidad.</li>
+            <li><strong>Columnas o campos:</strong> Atributos o propiedades de los datos almacenados.</li>
+            <li><strong>Índices:</strong> Ayudan a acceder a los datos de manera más eficiente.</li>
+            <li><strong>Claves primarias y foráneas:</strong> Relacionan tablas entre sí en bases de datos relacionales.</li>
+        </ul>
+        
+        <h3>3. Lenguajes relacionados con bases de datos</h3>
+        <h4>SQL (Structured Query Language):</h4>
+        <p>Es el lenguaje estándar para trabajar con bases de datos relacionales.</p>
+        <p><strong>Comandos principales de SQL:</strong></p>
+        <ul>
+            <li><strong>DDL (Data Definition Language):</strong> Para definir la estructura de la base de datos. Ejemplo: CREATE, ALTER, DROP.</li>
+            <li><strong>DML (Data Manipulation Language):</strong> Para gestionar datos. Ejemplo: SELECT, INSERT, UPDATE, DELETE.</li>
+            <li><strong>DCL (Data Control Language):</strong> Para controlar el acceso. Ejemplo: GRANT, REVOKE.</li>
+            <li><strong>TCL (Transaction Control Language):</strong> Para gestionar transacciones. Ejemplo: COMMIT, ROLLBACK.</li>
+        </ul>
+        <h4>Lenguajes para NoSQL:</h4>
+        <ul>
+            <li>Generalmente utilizan APIs específicas del sistema. Ejemplo: MongoDB usa consultas JSON.</li>
+        </ul>
+        <img src="DatBase3.jpeg" class="Img-3">
+        <h3>4. Arquitectura de una base de datos</h3>
+        <ul>
+            <li><strong>Monolítica:</strong> Todo el sistema está centralizado.</li>
+            <li><strong>Cliente-servidor:</strong> El cliente solicita datos al servidor.</li>
+            <li><strong>Distribuida:</strong> Los datos están en varios servidores geográficamente dispersos.</li>
+            <li><strong>Basada en la nube:</strong> Accesible desde cualquier lugar mediante internet.</li>
+        </ul>
+        
+        <h3>5. Ventajas de usar bases de datos</h3>
+        <ul>
+            <li>Almacenamiento eficiente de datos.</li>
+            <li>Facilidad para acceder, consultar y analizar datos.</li>
+            <li>Reducción de redundancia y mejora de integridad.</li>
+            <li>Mecanismos de seguridad y respaldo.</li>
+            <li>Escalabilidad y capacidad de manejar grandes volúmenes de datos.</li>
+        </ul>
+        
+        <h3>6. Herramientas populares para bases de datos</h3>
+        <h4>Relacionales:</h4>
+        <ul>
+            <li>MySQL: Gratuita y muy utilizada.</li>
+            <li>PostgreSQL: Avanzada y extensible.</li>
+            <li>Oracle Database: Usada en grandes empresas.</li>
+            <li>Microsoft SQL Server: Solución empresarial de Microsoft.</li>
+        </ul>
+        <h4>No relacionales:</h4>
+        <ul>
+            <li>MongoDB: Para documentos en formato JSON.</li>
+            <li>Redis: Base de datos en memoria, clave-valor.</li>
+            <li>Cassandra: Escalable y distribuida.</li>
+            <li>Neo4j: Orientada a grafos.</li>
+        </ul>
+        <img src="DatBase4.png" class="Img-2">
+        <h3>7. Seguridad en bases de datos</h3>
+        <ul>
+            <li><strong>Autenticación:</strong> Controlar quién puede acceder.</li>
+            <li><strong>Autorización:</strong> Limitar qué puede hacer un usuario.</li>
+            <li><strong>Cifrado:</strong> Proteger los datos durante el almacenamiento o la transmisión.</li>
+            <li><strong>Respaldo (backup):</strong> Para prevenir pérdida de datos.</li>
+        </ul>
+        
+        <h3>8. Tendencias actuales</h3>
+        <ul>
+            <li>Bases de datos en tiempo real.</li>
+            <li>Integración con inteligencia artificial y aprendizaje automático.</li>
+            <li>Bases de datos híbridas (relacionales y NoSQL).</li>
+            <li>Soluciones serverless para escalabilidad en la nube.</li>
+        </ul>
+        <p><br><br><br><br>Esperamos que el contenido y el material de apoyo ayan sido de tu ayuda.</p>
+    </nav>
+</body>
